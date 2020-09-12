@@ -20,12 +20,27 @@
   --transition: 300ms ease-in-out;
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 .body {
   margin: 0;
   font-family: var(--font-family-sans);
   font-size: 1.6rem;
   color: var(--color-grayish-dark-blue);
   background-color: var(--color-very-light-gray);
+}
+
+.header {
+  display: block;
+  margin-top: 3.2rem;
+}
+
+.header .container {
+  height: 3.2rem;
+  padding: 0 3.2rem;
 }
 
 .main-nav {
