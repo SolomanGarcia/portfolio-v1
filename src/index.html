@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="main-nav">
+          <div class="main-nav__logo">
+            <svg></svg>
+          </div>
+          <div class="main-nav__burger-menu" id="burger">
+            <svg id="burger-icon"></svg>
+            <svg id="close-icon"></svg>
+          </div>
+          <ul class="main-nav__nav-items">
+            <li class="main-nav__nav-item">
+              <a
+                href="./index.html"
+                class="t-nav-link t-dark-gray t-nav-link--active"
+                >Home</a
+              >
+            </li>
+            <li class="main-nav__nav-item">
+              <a href="./portfolio.html" class="t-nav-link t-dark-gray"
+                >portfolio</a
+              >
+            </li>
+            <li class="main-nav__nav-item">
+              <a href="./contact.html" class="t-nav-link t-dark-gray"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-nav__nav-items hide" id="mobile-nav">
+            <li class="mobile-nav__nav-item">
+              <a href="./index.html" class="t-nav-link t-white">Home</a>
+            </li>
+            <li class="mobile-nav__nav-item">
+              <a href="./portfolio.html" class="t-nav-link t-white"
+                >portfolio</a
+              >
+            </li>
+            <li class="mobile-nav__nav-item">
+              <a href="./contact.html" class="t-nav-link t-white">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
