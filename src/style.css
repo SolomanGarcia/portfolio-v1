@@ -22,7 +22,10 @@
 
 .body {
   margin: 0;
-  box-sizing: border-box;
+  font-family: var(--font-family-sans);
+  font-size: 1.6rem;
+  color: var(--color-grayish-dark-blue);
+  background-color: var(--color-very-light-gray);
 }
 
 .main-nav {
