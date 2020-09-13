@@ -68,11 +68,6 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
 }
 
 li {
@@ -120,7 +115,7 @@ li {
 }
 
 .home-intro__image {
-  background-image: url(./images/image-homepage-hero.jpg);
+  background-image: url(./images/mobile/image-homepage-hero@2x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 27.1rem;
@@ -311,7 +306,7 @@ li {
   }
 
   .main-nav__nav-items {
-    display: block;
+    /* display: block; */
     display: flex;
     margin-bottom: .3rem;
   }
@@ -325,7 +320,7 @@ li {
   }
 
   .home-intro__image {
-    background-image: url(./images/);
+    background-image: url(./images/tablet/image-homepage-hero@2x.jpg);
     height: 60rem;
   }
 
