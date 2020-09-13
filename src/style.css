@@ -119,6 +119,17 @@ li {
   margin-top: 4rem;
 }
 
+.home-intro__image {
+  background-image: url(./images/image-homepage-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27.1rem;
+}
+
+.home-intro__content {
+  margin-top: 2.4rem;
+}
+
 /* buttons */
 .btn {
   text-decoration: none;
@@ -303,6 +314,30 @@ li {
     display: block;
     display: flex;
     margin-bottom: .3rem;
+  }
+
+  .main--home {
+    margin-top: 4.7rem;
+  }
+
+  .home-intro {
+    position: relative;
+  }
+
+  .home-intro__image {
+    background-image: url(./images/);
+    height: 60rem;
+  }
+
+  .home-intro__content {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--color-very-light-gray);
+    width: 74.709%;
+    max-width: 51.4rem;
+    padding-top: 2.8rem;
+    padding-right: 2.8rem;
   }
 }
 
