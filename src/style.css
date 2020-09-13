@@ -36,6 +36,13 @@ body {
   background-color: var(--color-very-light-gray);
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 /* header */
 .header {
   margin-top: 3.2rem;
@@ -114,6 +121,10 @@ li {
   margin-top: 4rem;
 }
 
+.main--home {
+  margin-top: 4rem;
+}
+
 .home-intro__image {
   background-image: url(./images/mobile/image-homepage-hero@2x.jpg);
   background-size: cover;
@@ -123,6 +134,57 @@ li {
 
 .home-intro__content {
   margin-top: 2.4rem;
+}
+
+.home-about {
+  margin-top: 9.6rem;
+}
+
+.home-about__image {
+  height: 34.6rem;
+  background-image: url(./images/mobile/image-homepage-profile@2x.jpg);
+  background-size: cover;
+  margin-bottom: 3.2rem;
+  background-position: center center;
+}
+
+.home-about__content {
+  border-top: 1px solid var(--color-border-gray);
+  border-bottom: 1px solid var(--color-border-gray);
+  padding: 3.2rem 0 5.1rem;
+}
+
+.home-about__content__heading {
+  margin-bottom: 2.8rem;
+}
+
+.t-body1 {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  letter-spacing: 0;
+  font-weight: var(--weight-regular);
+  font-family: var(--font-family-sans);
+}
+
+.home-about__introduction {
+  opacity: .8;
+}
+
+.call-to-action {
+  margin: 11.5rem 0 8rem;
+  text-align: center;
+}
+
+.t-h2 {
+  font-size: 4rem;
+  line-height: 4.2rem;
+  letter-spacing: -0.36px;
+  font-weight: var(--weight-bold);
+  font-family: var(--font-family-serif);
+}
+
+.call-to-action__line {
+  display: none;
 }
 
 /* buttons */
